@@ -32,6 +32,15 @@ class _FullImageState extends State<FullImage> {
             InkWell(
               onTap: () {
                 setwallpaper();
+
+                ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+                  backgroundColor: Colors.green,
+                  content: Text(
+                    "Done",
+                    style: TextStyle(
+                        color: Colors.black, fontWeight: FontWeight.bold),
+                  ),
+                ));
               },
               child: Container(
                 height: 60,

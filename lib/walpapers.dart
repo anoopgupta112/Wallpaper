@@ -64,7 +64,6 @@ class _WallpapersState extends State<Wallpapers> {
                       crossAxisCount: 3,
                       mainAxisSpacing: 5,
                       crossAxisSpacing: 5,
-                      // childAspectRatio: 0.5
                     ),
                     itemBuilder: (context, index) {
                       return InkWell(
