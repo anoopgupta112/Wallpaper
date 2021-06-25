@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.galary_app">
    <application
-        android:label="galary_app"
+        android:label="Wallpaper_app"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
